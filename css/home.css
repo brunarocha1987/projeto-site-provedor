@@ -1,0 +1,339 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Geral */
+.limite-de-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.estilo{color: #2f86d6;}
+
+/* Estilizando a seção TOPO */
+.secao-topo{
+    height: 140px;
+    padding: 35px 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.topo-logo{
+    position: relative;
+}
+
+.topo-logo div{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.topo-logo img{
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.topo-logo p{
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.topo-logo h1{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.topo-links{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.topo-links a{
+    font-size: 18px;
+    color: #233032;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+/* Estilizando a seção BANNER */
+.secao-banner{
+    background-color: #2f86d6;
+    height: 450px;
+}
+
+.container-banner{
+    position: relative;
+    padding: 180px 0;
+}
+
+.banner-texto{
+    width: 470px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+.banner-texto p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner-texto h2{
+    font-size: 28px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.secao-banner img{
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+/* Estilizando a seção 1º ANUNCIO*/
+.secao-primeiro-anuncio{
+    background-color: #233032;
+    height: 120px;
+}
+
+.container-anuncio{
+    padding: 40px 0;
+    position: relative;
+}
+
+.primeiro-anuncio-texto{
+    width: 600px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.primeiro-anuncio-texto h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.primeiro-anuncio-texto p{
+    font-size: 16px;
+}
+
+.primeiro-anuncio-link{
+    background-color: #2f86d6;
+    border: 1px solid #2f86d6;
+    border-radius: 5px;
+    padding: 15px 10px;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.primeiro-anuncio-link a{
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.primeiro-anuncio-link a img{
+    width: 17px;
+    margin: 0 5px;
+}
+
+/* Estilizando a seção INFORMAÇÕES */
+.secao-informacoes{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.informacoes-titulo{
+    width: 900px;
+    margin: 0 auto 70px;
+}   
+
+.informacoes-titulo h2{
+    font-size: 32px;
+}
+
+.informacoes-conteudo{
+    position: relative;
+    height: 240px;
+}
+
+.informacoes-conteudo img{
+    width: 100px;
+    margin: 20px 0;
+}
+
+.informacoes-conteudo div{
+    width: 33%;
+    position: absolute;
+    top: 0;
+}
+
+.card2{
+    left: 350px;
+}
+
+.card3{
+    right: 0;
+}
+
+.informacoes-conteudo h3{
+    font-size: 18px;
+    color: #000;
+}
+
+.informacoes-conteudo p{
+    font-size: 16px;
+    color: #000;
+    margin: 20px 0;
+}
+
+/* Estilizando a seção PLANOS */
+.secao-tabela-planos{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f1f3f7;
+}
+
+.tabelo-titulo h2{
+    font-size: 32px;
+}
+
+table{
+    margin: 70px auto 50px;
+    box-shadow: 0px 2px 40px 15px  #2f86d6 ;
+    border-radius: 4px;
+}
+
+table thead h3{
+    font-size: 18px;
+    color: #000;
+    margin: 10px auto;
+}
+
+table thead img{
+    width: 100px;
+    margin: 10px auto;
+}
+
+table thead tr th p{
+    font-size: 13px;
+    color: #a89f9f;
+    margin: 10px 10px;
+    width: 150px;
+}
+
+table tbody tr td{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.linha-impar{
+    background-color: #f6f6f6;
+}
+
+.linha-impar{
+    background-color: #f1f3f7;
+}
+
+/* Estilizando a seção 2º ANUNCIO */
+.secao-segundo-anuncio{
+    background-color: #2f86d6;
+    height: 120px;
+}
+
+.segundo-anuncio-texto{
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.segundo-anuncio-texto h2{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.segundo-anuncio-link{
+    background-color: #233032;
+    border: 1px solid #233032;
+    border-radius: 5px;
+    padding: 15px 10px;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.secao-segundo-anuncio a{
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.secao-segundo-anuncio a img{
+    width: 17px;
+    margin: 0 5px;
+}
+
+/* Estilizando a seção RODAPÉ */
+
+.rodape-logo{
+    width: 320px;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+.rodape-logo img{
+    width: 70px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.rodape-logo-texto{
+    position: absolute;
+    top: 70px; 
+    right: 20px;
+}
+
+.rodape-logo h2{
+    font-size: 32px;
+    color: #000;
+}
+
+.rodape-logo p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rodape-contato{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.rodape-desenvolvedor{
+    background-color: #f1f3f7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0;
+}
